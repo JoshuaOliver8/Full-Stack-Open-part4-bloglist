@@ -2,8 +2,8 @@ POST http://localhost:3003/api/blogs
 Content-Type: application/json
 
 {
-    "title": "JavaScript 101",
-    "author": "Nisio Isin",
-    "url": "21stjumpstreet.gov",
-    "likes": 450
+    "title": "Java 1322",
+    "author": "Hirohiko Araki",
+    "url": "ooprinciples.net",
+    "likes": 67
 }
