@@ -1,0 +1,9 @@
+POST http://localhost:3003/api/blogs
+Content-Type: application/json
+
+{
+    "title": "JavaScript 101",
+    "author": "Nisio Isin",
+    "url": "21stjumpstreet.gov",
+    "likes": 450
+}
