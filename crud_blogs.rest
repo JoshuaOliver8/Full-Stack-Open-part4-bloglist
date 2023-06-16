@@ -2,12 +2,12 @@ GET http://localhost:3003/api/blogs/64890c38a2b76bc96ef65a0a
 ###
 POST http://localhost:3003/api/blogs/
 Content-Type: application/json
-Authorization:Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImphamEyMSIsImlkIjoiNjQ4Yjc0MjE2MGIzMDM3MWZlYWI4ZWM4IiwiaWF0IjoxNjg2ODY2MzY1fQ.S0CaalLPKyLTuk8Moa0B17zz7YYJo7zfdIM6524iOEQ
+Authorization:Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImphamEyMSIsImlkIjoiNjQ4Yjc0MjE2MGIzMDM3MWZlYWI4ZWM4IiwiaWF0IjoxNjg2OTQ2NDI3fQ.383JFMQfUQ05kXelb-j-lbdCvVO4W9-RXdUM_OGO1i8
 
 {
-    "title": "How to Pirate Every Season of the Simpsons (NOT CLICKBAIT)",
-    "url": "theshadowgovernment.net",
-    "likes": 7
+    "title": "EVIL Lies Your Local Pharmicist Persists",
+    "url": "theshadowgovernment.org",
+    "likes": 1
 }
 ###
 POST http://localhost:3003/api/login/
@@ -17,3 +17,6 @@ Content-Type: application/json
     "username": "jaja21",
     "password": "password"
 }
+###
+DELETE http://localhost:3003/api/blogs/648cc2873df478b90259ff47
+Authorization:Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImphamEyMSIsImlkIjoiNjQ4Yjc0MjE2MGIzMDM3MWZlYWI4ZWM4IiwiaWF0IjoxNjg2OTQ2NDI3fQ.383JFMQfUQ05kXelb-j-lbdCvVO4W9-RXdUM_OGO1i8
