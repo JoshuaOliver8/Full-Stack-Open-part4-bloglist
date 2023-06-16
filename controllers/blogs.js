@@ -9,7 +9,7 @@ const getTokenFrom = request => {
 	  return authorization.replace('Bearer ', '')
 	}
 	return null
-  }
+}
 
 blogsRouter.get('/', async (request, response) => {
 	const blogs = await Blog
