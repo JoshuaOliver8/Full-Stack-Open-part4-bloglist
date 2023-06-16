@@ -1,9 +1,19 @@
-POST http://localhost:3003/api/blogs
+GET http://localhost:3003/api/blogs/64890c38a2b76bc96ef65a0a
+###
+POST http://localhost:3003/api/blogs/
+Content-Type: application/json
+Authorization:Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImphamEyMSIsImlkIjoiNjQ4Yjc0MjE2MGIzMDM3MWZlYWI4ZWM4IiwiaWF0IjoxNjg2ODY2MzY1fQ.S0CaalLPKyLTuk8Moa0B17zz7YYJo7zfdIM6524iOEQ
+
+{
+    "title": "How to Pirate Every Season of the Simpsons (NOT CLICKBAIT)",
+    "url": "theshadowgovernment.net",
+    "likes": 7
+}
+###
+POST http://localhost:3003/api/login/
 Content-Type: application/json
 
 {
-    "title": "Java 1322",
-    "author": "Hirohiko Araki",
-    "url": "ooprinciples.net",
-    "likes": 67
+    "username": "jaja21",
+    "password": "password"
 }
